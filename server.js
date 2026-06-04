@@ -1,3 +1,6 @@
+const mongoose = require("mongoose");
+
+mongoose.connect(process.env.MONGO_URI);
 const express = require('express') //bring express in
 const colors = require('colors') 
 var cors = require('cors')
